@@ -479,10 +479,11 @@
   box-shadow: 0 6px 20px rgba(3, 4, 121, 0.3);
 }
 
-.feature-icon svg {
-  width: 28px;
-  height: 28px;
-  stroke-width: 2.5;
+.feature-number {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1;
 }
 
 .feature-content h3 {
@@ -762,9 +763,8 @@
     height: 48px;
   }
 
-  .feature-icon svg {
-    width: 24px;
-    height: 24px;
+  .feature-number {
+    font-size: 1.125rem;
   }
 
   .feature-content h3 {
@@ -818,9 +818,8 @@
     height: 44px;
   }
 
-  .feature-icon svg {
-    width: 22px;
-    height: 22px;
+  .feature-number {
+    font-size: 1rem;
   }
 
   .feature-content h3 {
