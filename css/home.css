@@ -2951,3 +2951,147 @@ html {
     margin-bottom: 0.5rem;
   }
 }
+
+/* Project CTA Section */
+.project-cta-section {
+  position: relative;
+  padding: 6rem 0;
+  background-color: transparent;
+  background-image: url(https://windoo.peerduck.com/wp-content/uploads/2023/03/4tggrvrt4h.png);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.project-cta-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(223, 235, 246, 0.3);
+  z-index: 1;
+}
+
+.cta-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-text {
+  padding: 0 2rem;
+}
+
+.cta-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #1e3a8a;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.cta-highlight {
+  position: relative;
+  display: inline-block;
+}
+
+.cta-highlight::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: #1e3a8a;
+  border-radius: 3px;
+}
+
+.cta-description {
+  font-size: 1.25rem;
+  color: #374151;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #1e3a8a;
+  color: white;
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.125rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(30, 58, 138, 0.3);
+}
+
+.cta-button:hover {
+  background: #1e40af;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(30, 58, 138, 0.4);
+}
+
+/* Responsive Design for Project CTA Section */
+@media (max-width: 1024px) {
+  .project-cta-section {
+    padding: 5rem 0;
+  }
+
+  .cta-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-cta-section {
+    padding: 4rem 0;
+  }
+
+  .cta-title {
+    font-size: 2.5rem;
+  }
+
+  .cta-description {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+  }
+
+  .cta-button {
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-cta-section {
+    padding: 3rem 0;
+  }
+
+  .cta-title {
+    font-size: 2rem;
+  }
+
+  .cta-description {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cta-text {
+    padding: 0 1rem;
+  }
+
+  .cta-button {
+    padding: 0.75rem 1.75rem;
+    font-size: 0.95rem;
+  }
+}
