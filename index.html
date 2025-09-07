@@ -70,27 +70,15 @@
 
     <!-- Hero Banner Section -->
     <section id="home" class="hero-section">
-        <div class="hero-background">
-            <img src="assets/hero-mividoor.jpg" alt="Cửa gỗ nhựa composite Mividoor" class="hero-bg-image">
-            <div class="hero-overlay"></div>
-        </div>
-
         <div class="container">
             <div class="hero-content">
+                <!-- Left Column - Marketing Content -->
                 <div class="hero-left">
-                    <div class="hero-badge">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path d="M9 11l3 3L22 4" />
-                            <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9c1.24 0 2.42.25 3.5.7" />
-                        </svg>
-                        Chất lượng vượt trội
-                    </div>
 
-                    <h2 class="hero-title">
+                    <h1 class="hero-title">
                         Cửa gỗ nhựa composite
                         <span class="hero-highlight">Mividoor</span>
-                    </h2>
+                    </h1>
 
                     <p class="hero-description">
                         Tại nhà máy Mivicomposite VN tọa lạc tại TP Cần Thơ, nhà máy sản xuất và phân phối cửa gỗ nhựa
@@ -109,11 +97,21 @@
                         <a href="#products" class="btn btn-secondary">Xem sản phẩm</a>
                     </div>
 
+                </div>
 
+                <!-- Right Column - Door Images -->
+                <div class="hero-right">
+                    <div class="door-showcase">
+                        <div class="door-image-container">
+                            <img src="assets/cuatron.png" alt="Cửa Composite Mividoor" class="door-main-image">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+
 
     <!-- About Section -->
     <section id="about" class="section about">
@@ -133,27 +131,31 @@
 
             <div class="about-three-column">
                 <div class="about-column">
-                    <div class="about-number">01</div>
+                    <div class="about-image-wrapper">
+                        <img src="assets/dohoanthiencao.png" alt="Độ hoàn thiện cao" class="about-column-image">
+                    </div>
                     <h3 class="about-column-title">Độ hoàn thiện cao</h3>
                     <p class="about-column-description">
                         Bề mặt cửa được hoàn thiện tỉ mỉ
                     </p>
                 </div>
 
-                <div class="about-column-divider"></div>
 
                 <div class="about-column">
-                    <div class="about-number">02</div>
+                    <div class="about-image-wrapper">
+                        <img src="assets/dohoanthiencao.png" alt="Thiết kế sắc nét" class="about-column-image">
+                    </div>
                     <h3 class="about-column-title">Thiết kế sắc nét</h3>
                     <p class="about-column-description">
                         Cánh cửa đẹp với đường nét tinh tế
                     </p>
                 </div>
 
-                <div class="about-column-divider"></div>
 
                 <div class="about-column">
-                    <div class="about-number">03</div>
+                    <div class="about-image-wrapper">
+                        <img src="assets/dohoanthiencao.png" alt="Thi công dễ dàng" class="about-column-image">
+                    </div>
                     <h3 class="about-column-title">Thi công dễ dàng</h3>
                     <p class="about-column-description">
                         Độ bắt vít cao, lắp đặt thuận tiện
@@ -474,7 +476,11 @@
     </section>
 
 
-    <!-- Products Section -->
+
+
+    <!-- News Section -->
+
+    <!-- Products Section moved below Events Gallery -->
     <section id="products" class="section">
         <div class="container">
             <div class="section-header">
@@ -487,74 +493,38 @@
             </div>
 
             <div class="products-grid">
-                <div class="product-card-horizontal">
-                    <div class="product-image-left">
-                        <img src="assets/cuavom.png" alt="Cửa Vòm" class="product-img">
-                    </div>
-                    <div class="product-content-right">
-                        <div class="product-category">Cửa Composite</div>
-                        <h3 class="product-title">CỬA VÒM</h3>
-                    </div>
+                <div class="product-showcase-item" aria-label="Cửa Vòm" tabindex="0">
+                    <h3 class="product-title">CỬA VÒM</h3>
+                    <img src="assets/cuavomv2.png" alt="Cửa vòm" class="product-visual" />
                 </div>
 
-                <div class="product-card-horizontal">
-                    <div class="product-image-left">
-                        <img src="assets/cuasoihuynh.png" alt="Cửa Soi Huỳnh" class="product-img">
-                    </div>
-                    <div class="product-content-right">
-                        <div class="product-category">Cửa Composite</div>
-                        <h3 class="product-title">CỬA SOI HUỲNH</h3>
-                    </div>
+                <div class="product-showcase-item" aria-label="Cửa Soi Huỳnh" tabindex="0">
+                    <h3 class="product-title">CỬA SOI HUỲNH</h3>
+                    <img src="assets/cuasoihuynhv2.png" alt="Cửa soi huỳnh" class="product-visual" />
                 </div>
 
-                <div class="product-card-horizontal">
-                    <div class="product-image-left">
-                        <img src="assets/cuadoi.png" alt="Cửa Phào Đôi" class="product-img">
-                    </div>
-                    <div class="product-content-right">
-                        <div class="product-category">Cửa Composite</div>
-                        <h3 class="product-title">CỬA PHÀO ĐÔI</h3>
-                    </div>
+                <div class="product-showcase-item" aria-label="Cửa Phào Đôi" tabindex="0">
+                    <h3 class="product-title">CỬA PHÀO ĐÔI</h3>
+                    <img src="assets/cuavomv2.png" alt="Cửa phào đôi" class="product-visual" />
                 </div>
 
-                <div class="product-card-horizontal">
-                    <div class="product-image-left">
-                        <img src="assets/cuatron.png" alt="Cửa Chính" class="product-img">
-                    </div>
-                    <div class="product-content-right">
-                        <div class="product-category">Cửa Composite</div>
-                        <h3 class="product-title">CỬA CHÍNH</h3>
-                    </div>
+                <div class="product-showcase-item" aria-label="Cửa Lam Gió" tabindex="0">
+                    <h3 class="product-title">CỬA LAM GIÓ</h3>
+                    <img src="assets/cualamgio.png" alt="Cửa lam gió" class="product-visual" />
                 </div>
 
-                <div class="product-card-horizontal">
-                    <div class="product-image-left">
-                        <img src="assets/cuaofix.png" alt="Cửa Ô Fix" class="product-img">
-                    </div>
-                    <div class="product-content-right">
-                        <div class="product-category">Cửa Composite</div>
-                        <h3 class="product-title">CỬA Ô FIX</h3>
-                    </div>
+                <div class="product-showcase-item" aria-label="Cửa Ô Kính" tabindex="0">
+                    <h3 class="product-title">CỬA Ô KÍNH</h3>
+                    <img src="assets/cuaokinhv2.png" alt="Cửa ô kính" class="product-visual" />
                 </div>
 
-                <div class="product-card-horizontal">
-                    <div class="product-image-left">
-                        <img src="assets/cuaokinh.png" alt="Cửa Ô Kính" class="product-img">
-                    </div>
-                    <div class="product-content-right">
-                        <div class="product-category">Cửa Composite</div>
-                        <h3 class="product-title">CỬA Ô KÍNH</h3>
-                    </div>
+                <div class="product-showcase-item" aria-label="Cửa Phào Chỉ Nổi" tabindex="0">
+                    <h3 class="product-title">CỬA PHÀO CHỈ NỔI</h3>
+                    <img src="assets/cuaphaochinoi.png" alt="Cửa phào chỉ nổi" class="product-visual" />
                 </div>
-
-
             </div>
-
-
         </div>
     </section>
-
-    <!-- News Section -->
     <section id="news" class="section">
         <div class="container">
             <div class="section-header">
@@ -688,7 +658,7 @@
                         </div>
                         <div class="contact-details">
                             <h4>Địa Chỉ Nhà Máy</h4>
-                            <p>08-T3, Đường số 4, KDC Miền Nam, Phường Hưng Phú, Quận Cái Răng, TP. Cần Thơ</p>
+                            <p>Phường Hưng Phú, Quận Cái Răng, TP. Cần Thơ</p>
                         </div>
                     </div>
 
@@ -1155,6 +1125,7 @@
                 });
             });
         });
+
     </script>
 </body>
 
