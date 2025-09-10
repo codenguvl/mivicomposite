@@ -272,11 +272,7 @@
 }
 
 .btn-primary {
-  background: linear-gradient(
-    135deg,
-    var(--wood-primary),
-    var(--wood-secondary)
-  );
+  background: linear-gradient(rgb(36, 105, 254) 0%, rgb(23, 58, 225) 100%);
   color: white;
   box-shadow: 0 8px 25px rgba(3, 4, 121, 0.3);
 }
